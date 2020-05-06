@@ -7,6 +7,7 @@ from oci.config import validate_config
 
 # get config
 # ocid del database in oggetto
+# nel codice è cablato l'ocid del ADB... dovete sostitiire con il vostro!
 MY_ADB_ID = "ocid1.autonomousdatabase.oc1.eu-frankfurt-1.abtheljtwnrioduazul6zqhqrtmqs725m2jkjnyn5u6fzqrwrq3wowsbdzia"
 
 config = from_file()
