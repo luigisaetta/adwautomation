@@ -1,14 +1,16 @@
+import oci
 import sys
+import time
 from oci.config import from_file
 from oci.config import validate_config
 
-config = from_file()
-
-validate_config(config)
 
 # get config
 # ocid del database in oggetto
 MY_ADB_ID = "ocid1.autonomousdatabase.oc1.eu-frankfurt-1.abtheljtwnrioduazul6zqhqrtmqs725m2jkjnyn5u6fzqrwrq3wowsbdzia"
+
+config = from_file()
+validate_config(config)
 
 #
 # funzione che fa update config DB
@@ -23,7 +25,7 @@ def update_adb(db_client, adb_id, n_ocpu, auto_scale):
                                                         update_autonomous_database_details=adb_request,
                                                         retry_strategy=oci.retry.DEFAULT_RETRY_STRATEGY)
 
-    print("ADB updated....")
+    print("ATP scaled....")
 
     return adb_response.data.id
 
@@ -53,4 +55,8 @@ print("Scaling up ATP...")
 db_client = oci.database.DatabaseClient(config)
 
 update_adb(db_client, MY_ADB_ID, n_ocpu, auto_scaling)
+
+# wait 30 sec.
+time.sleep(30)
+
 
