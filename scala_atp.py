@@ -1,5 +1,4 @@
 import sys
-import oci
 from oci.config import from_file
 from oci.config import validate_config
 
@@ -8,6 +7,7 @@ config = from_file()
 validate_config(config)
 
 # get config
+# ocid del database in oggetto
 MY_ADB_ID = "ocid1.autonomousdatabase.oc1.eu-frankfurt-1.abtheljtwnrioduazul6zqhqrtmqs725m2jkjnyn5u6fzqrwrq3wowsbdzia"
 
 #
@@ -49,6 +49,7 @@ else:
 
 print("Scaling up ATP...")
 
+# prepara ed esegue l'aggiornamento
 db_client = oci.database.DatabaseClient(config)
 
 update_adb(db_client, MY_ADB_ID, n_ocpu, auto_scaling)
