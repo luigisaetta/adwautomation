@@ -43,10 +43,7 @@ if len(sys.argv) < 3:
    sys.exit(-1)
 else:
    n_ocpu = int(sys.argv[1])
-   if sys.argv[2] == "True":
-       auto_scaling = True
-   else:
-       auto_scaling = False
+   auto_scaling = (sys.argv[2] == "True")
 
    print("Executing with params: %s %s" %(n_ocpu, auto_scaling))
 
