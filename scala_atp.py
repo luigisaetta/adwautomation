@@ -8,7 +8,6 @@ config = from_file()
 validate_config(config)
 
 # get config
-compartment_id = config["tenancy"]
 MY_ADB_ID = "ocid1.autonomousdatabase.oc1.eu-frankfurt-1.abtheljtwnrioduazul6zqhqrtmqs725m2jkjnyn5u6fzqrwrq3wowsbdzia"
 
 #
