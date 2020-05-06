@@ -35,7 +35,8 @@ def update_adb(db_client, adb_id, n_ocpu, auto_scale):
 if len(sys.argv) < 3:
    print("Missing command line params...")
    print("Usage: python3 scala_atp.py N_CORE AUTO_SCALE.")
-   
+   print("...")
+
    sys.exit(-1)
 else:
    n_ocpu = int(sys.argv[1])
