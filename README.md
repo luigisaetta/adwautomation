@@ -21,5 +21,9 @@ L.S. 13/05/2020
 
 	https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/
 
+5. Per configurare l'accesso ad OCI da SDK:
+
+	https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm
+
 
 
