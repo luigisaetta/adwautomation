@@ -14,6 +14,7 @@ L.S. 13/05/2020
 3. Per cambiare la configurazione CPU di ATP uso scala_atp.py
 
 4. La documentazione del OCI Python SDK è disponibile alla URL.
+
 	https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/
 
 
