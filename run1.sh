@@ -2,7 +2,7 @@
             -cf ~/Wallet_ATP1.zip \
             -cs atp1_tp \
             -u soe \
-            -p Sogei1234567 \
+            -p XXXXXXXX \
             -v users,tps \
             -intermin 0 \
             -intermax 0 \
