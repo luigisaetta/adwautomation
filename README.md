@@ -6,7 +6,8 @@ L.S. 13/05/2020
 
 	http://www.dominicgiles.com/blog/files/c84a63640d52961fc28f750570888cdc-169.html
 
-	La soluzione più semplice ed efficace potrebbe essere di creare una VM in OCI ed usarla per simulare l'AS.
+	La soluzione più semplice ed efficace è di creare una VM in OCI ed usarla per simulare l'AS. In tale VM si fa girare Swingbench (run1.sh). 
+	Per test si può lanciare anche da una macchina remota, ma in questo caso la  velocità della connessione può influenzare i risultati.
 
 	La versione di Swingbench che io ho usato durante la demo è la 2.6.
 
