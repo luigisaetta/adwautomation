@@ -11,9 +11,9 @@ L.S. 13/05/2020
 
 2. Per il run della simulazione uso lo script run1.sh, da collocare in swingbench/bin
 
-3. Per cambiare la configurazione CPU di ATP uso scala_atp.py
+3. Per cambiare la configurazione CPU di ATP uso: scala_atp.py
 
-4. La documentazione del OCI Python SDK è disponibile alla URL.
+4. La documentazione del OCI Python SDK è disponibile alla URL:
 
 	https://oracle-cloud-infrastructure-python-sdk.readthedocs.io/en/latest/
 
