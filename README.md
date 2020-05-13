@@ -1,4 +1,6 @@
-Repository con il codice per l'esempio di scalabilità ed automazione **ATP**
+Repository con il codice per l'esempio di scalabilità ed automazione **Oracle Autonomous DB**
+
+utilizzato nel **workshop OCI** del 14/05/2020
 
 L.S. 13/05/2020
 
